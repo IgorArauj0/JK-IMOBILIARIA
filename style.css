@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    scroll-behavior: smooth; /*Scrool Suave nas transições*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
@@ -42,7 +44,7 @@ header {
 
 
 
-.section-01 {
+#section-01 {
     padding: 200px;
     background-image: url(imagens/home-1682316_1280.jpg);
     background-position: center;
@@ -79,11 +81,11 @@ header {
     background-color: brown;
 }
 
-.section-02 div {
-    width: 350px;
-    height: 400px;
-    background-color: azure;
 
+.caixa-01 {
+    width: 400px;
+    height: 400px;
+    background-color: white;
 }
 
 
@@ -151,4 +153,10 @@ footer {
 footer img {
     width: 50px;
     height: 50px;
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
