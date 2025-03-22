@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    scroll-behavior: smooth; /*Scrool Suave nas transições*/
+    scroll-behavior: smooth;
+    /*Scrool Suave nas transições*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -159,4 +160,59 @@ footer img {
 footer a {
     color: white;
     text-decoration: none;
+}
+
+
+
+.section-pg2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 130px;
+    background-color: rgb(32, 198, 201);
+}
+
+.img-caixa {
+    width: 100px;
+}
+
+.div-pai div {
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
+}
+
+
+
+
+.div-pai div:hover {
+    box-shadow: 20px 20px 30px black;
+    transition: 0.8s;
+}
+
+
+.paragarafo-div {
+    color: rgb(255, 252, 252);
+    font-size: 27px;
+    font-weight: 800;
+    margin: 15px;
+    /*Está cuidando de todos os lados da margem*/
+}
+
+.div-pai div img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.div-pai {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.fa-star {
+    color: rgb(228, 187, 5);
 }
