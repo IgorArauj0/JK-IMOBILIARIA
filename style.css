@@ -22,6 +22,13 @@ header {
     height: 90px;
 }
 
+
+header ul li a:hover {
+    color: rgb(187, 0, 220);
+    transition: 0.8s;
+}
+
+
 .title-header h1 {
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
@@ -67,6 +74,12 @@ header {
     border-radius: 7px;
 
     border-color: transparent;
+}
+
+.section-01 button:hover {
+    background-color: yellow;
+    transition: 0.8s;
+    color: black;
 }
 
 
@@ -168,14 +181,18 @@ footer a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
     padding: 130px;
     background-color: rgb(32, 198, 201);
 }
 
+
+
+
 .img-caixa {
     width: 100px;
 }
+
+
 
 .div-pai div {
     width: 400px;
@@ -183,9 +200,8 @@ footer a {
     background-color: grey;
     border-radius: 15px;
     box-shadow: 10px 10px 20px black;
+    /*Responsável pela sombra das caixas (1 valor cuida da sombra lateral, 2 valor sombra inferior, 3 valor peso da cor da sombra.)*/
 }
-
-
 
 
 .div-pai div:hover {
@@ -199,6 +215,7 @@ footer a {
     font-size: 27px;
     font-weight: 800;
     margin: 15px;
+    
     /*Está cuidando de todos os lados da margem*/
 }
 
@@ -211,6 +228,7 @@ footer a {
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
+
 }
 
 .fa-star {
