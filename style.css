@@ -118,6 +118,7 @@ header ul li a:hover {
     width: 500px;
     height: 500px;
     border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
 }
 
 .section-03 div p {
@@ -145,6 +146,7 @@ header ul li a:hover {
 
 .section-04 iframe {
     border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
 }
 
 .section-04 p {
