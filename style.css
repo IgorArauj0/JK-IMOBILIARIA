@@ -236,3 +236,8 @@ footer a {
 .fa-star {
     color: rgb(228, 187, 5);
 }
+
+.fa-user {
+    color: white;
+    font-size: 25px;
+}

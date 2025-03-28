@@ -1,0 +1,71 @@
+/* ESTILIZAÇÃO GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+/* ESTILIZANDO A DIV QUE CONTÉM O FORMULÁRIO */
+.div-form {
+    background: #fbffcd;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 300px;
+    height: 380px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    /*Margem inferior*/
+    font-weight: bold; /*Largura da fonte*/
+}
+
+/* input[type="email"], input[type="password"] {
+    background-color: rgb(12, 171, 20);
+} */
+
+.dombosco{
+    padding: 10px; /*Espaçamento interno*/
+    margin-bottom: 15px; /*Espaçamento inferior dos input*/
+    font-size: 16px; /*tamanho da letra*/
+    border-radius: 5px; /*Bordas arredondadas*/
+    border: 2px solid #930505; /*Inserindo Bordas nos Input*/
+}
+
+.btn-form {
+    background-color: #a70fd5; /*cor de fundo do btn*/
+    color: white; /*cor da letra*/
+    padding: 10px; /*Espaçamento interno*/
+    border: none; /*bordar = nenhuma/sem borda*/
+    border-radius: 5px;/*Arredondamento do btn*/
+    font-size: 16px; /*Tamanho da letra*/
+    cursor: pointer; /*Tipo de cursor do mouse*/
+}
+
+.btn-form:hover{
+    background-color: #a70fd59a; /*Background ao passar o mouse*/
+    transition: 0.8s; /*Transição*/
+}
+
+
+h2, p {
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
