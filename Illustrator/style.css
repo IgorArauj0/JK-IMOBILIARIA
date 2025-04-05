@@ -7,7 +7,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     gap: 15px;
-    background-color: rgb(230, 224, 224);
+    background-color: rgb(47, 45, 45);
     padding: 15px;
     align-items: center;
 }
@@ -34,10 +34,17 @@ header button:hover{
 
 /* background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/...); */
 .section-01 {
-    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/camera-1840054_1280.jpg);
+    background: linear-gradient(180deg, #0c16a364 3.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/camera-1840054_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
     padding: 200px;
+}
+
+.section-01 p {
+    color: white;
+    
+    padding: 5px;
+    font-size: 30px;
 }
