@@ -16,7 +16,7 @@ body {
 
 /* ESTILIZANDO A DIV QUE CONTÉM O FORMULÁRIO */
 .div-form {
-    background: #fbffcd;
+    background: #575757;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px black;
@@ -51,7 +51,7 @@ label {
     margin-bottom: 15px; /*Espaçamento inferior dos input*/
     font-size: 16px; /*tamanho da letra*/
     border-radius: 5px; /*Bordas arredondadas*/
-    border: 2px solid #930505; /*Inserindo Bordas nos Input*/
+    border: 2px solid #636161; /*Inserindo Bordas nos Input*/
 }
 
 .btn-form {
